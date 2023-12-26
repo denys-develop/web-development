@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+/* Basic start */
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #393939;
+    overflow-x: hidden;
+    min-width: 320px;
+}
+
+.container {
+    max-width: 1340px;
+    padding: 0 30px;
+    margin: 0 auto;
+}
+
+.hide {
+    display: none;
+}
+
+.section__screen-project {
+    display: none;
+}
+/* Basic end */
+
+/* Header start */
+
+.header {
+    padding-top: 48px;
+}
+
+.header__nav {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.5px;
+    color: #B0B0B0;
+    text-align: right;
+    text-decoration: underline;
+    padding: 17px 0;
+}
+
+.header__lng {
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    color: #393939;
+    text-align: right;
+    display: none;
+}
+
+.header__hero {
+    display: flex;
+    margin-top: 115px;
+}
+
+.header__hero-text {
+    width: 630px;
+}
+
+.header__hero-title {
+    font-size: 40px;
+    line-height: 1.4;
+    letter-spacing: 0.3px;
+    margin-bottom: 45px;
+    margin-top: 116px;
+}
+
+.btn {
+    display: block;
+    width: 240px;
+    background: #FF3300;
+    border-radius: 8px;
+    padding: 18px 55px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.3px;
+    color: #FFFFFF;
+    transition: all .5s ease-in-out;
+}
+
+.btn:hover {
+    background: #c43511;
+}
+
+.btn:active {
+    background: #a3442c;
+    position: relative;
+    top: 1px;
+}
+
+.header__hero-background {
+    background: url(../img/header_bg.jpg);
+    width: 715px;
+    height: 470px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+}
+
+/* Header end */
+
+/* Services Card start */
+
+.services__cards {
+    padding-top: 155px;
+    padding-bottom: 135px;
+}
+
+.services__cards-title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.1;
+    letter-spacing: 0.3px;
+    margin-bottom: 60px;
+}
+
+.services__cards-wrapper {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    gap: 40px;
+}
+
+.services__card {
+    width: 400px;
+    padding: 32px 48px 56px 48px;
+    background: #F7F8F8;
+    border-radius: 8px;
+    box-shadow: 0px 10px 16px rgba(113, 113, 113, 0.160976);
+}
+
+.services__card-img {
+    display: block;
+    width: 36px;
+    height: 31px;
+    object-fit: contain;
+}
+
+.services__card-title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.1;
+    letter-spacing: 0.625px;
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+.services__card-text {
+    font-size: 16px;
+    line-height: 1.25;
+    letter-spacing: 0.3px;
+}
+
+/* Services Card end */
+
+/* Completed projects start */
+
+.completed__projects-title {
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.3px;
+    margin-bottom: 55px;
+}
+
+/* Completed projects - Basic - UFAIS */
+.subaru__technology, .informational__portal, .festival__invasion, .photo__bank {
+    background: #F7F8F8;
+}
+
+.unified-automated-system {
+    background-image: linear-gradient(transparent 10%,  #F7F8F8 10%);
+}
+
+.section__basic {
+    padding-bottom: 95px;
+}
+
+.section__basic-wrapper {
+    display: flex;
+    column-gap: 30px;
+}
+
+.section__basic-screen {
+    min-width: 840px;
+    height: 460px;
+    background: #393939;
+    box-shadow: 0px 21px 32px rgba(0, 0, 0, 0.237325);
+    border-radius: 16px;
+    padding: 16px;
+}
+
+.section__basic-screen::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: #D8D8D8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+}
+
+.section__basic-text {
+    width: 410px;
+}
+
+.section__basic-frontend {
+    display: inline-block;
+    width: 80px;
+    background: #199BC0;
+    border-radius: 4px;
+    padding: 5px 17px;
+    font-size: 12px;
+    line-height: 1.1;
+    letter-spacing: 0.09px;
+    color: #FFFFFF;
+    margin-bottom: 63px;
+}
+
+.section__basic-title { 
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: 0.214286px;
+    margin-bottom: 12px;
+}
+
+.section__basic-subtitle {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.142857px;
+    width: 95%;
+    margin-bottom: 19px;
+}
+
+.section__basic-icon {
+    display: block;
+    width: 15px;
+    height: 16px;
+    margin-bottom: 205px;
+}
+
+.section__basic-suptitle {
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.142857px;
+    margin-bottom: 5px;
+}
+
+.section__basic-msk {
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.107143px;
+    color: rgba(57, 57, 57, 0.404201);
+}
+
+/* Completed projects - Subaru Technology */
+.section__basic-backend {
+    background: #006480;
+    margin-left: 16px;
+}
+.section__basic-design {
+    padding: 5px 21px;
+    background: #FF3300;
+    margin-left: 16px;
+}
+
+.subaru__technology .section__basic-subtitle {
+    margin-bottom: 220px;
+}
+
+/* Completed projects - Informational portal*/
+.informational__portal .section__basic-subtitle {
+    width: 415px;
+}
+
+.informational__portal .section__basic-icon {
+    margin-bottom: 225px;
+}
+
+/* Completed projects - Festival Invasion*/
+.festival__invasion .section__basic-subtitle {
+    margin-bottom: 240px;
+}
+
+/* Completed projects - Photo bank*/
+.photo__bank .section__basic-subtitle {
+    width: 415px;
+}
+
+/* Completed projects - Support site*/
+.support__site {
+    background-image: linear-gradient(#F7F8F8 70%, transparent 70%);
+}
+
+.support__site .section__basic-subtitle {
+    margin-bottom: 240px;
+}
+
+/* Company Information*/
+.company__information {
+    padding-bottom: 175px;
+}
+
+.company__information-text {
+    width: 958px;
+    margin-left: auto;
+    margin-right: auto;
+
+    font-style: italic;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.5px;
+
+    height: 145px;
+    padding-top: 40px;
+
+    position: relative;
+}
+
+.company__information-text::before {
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 88px;
+    background: url(../img/comment.svg);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+
+    position: absolute;
+    top: 0px;
+    left: 20px;
+    z-index: -1;
+}
+
+/* Completed projects end */
+
+/* Application Form start */
+
+.application__form {
+    padding-bottom: 95px;
+}
+
+.application__form-title {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    letter-spacing: 0.357143px;
+    margin-bottom: 45px;
+}
+
+.application__form-wrap {
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+
+    position: relative;
+}
+
+.application__form-infotext {
+    font-size: 24px;
+    line-height: 1.1;
+    letter-spacing: 0.214286px;
+    color: #717171;
+}
+
+.application__form-input {
+    display: block;
+    width: 250px;
+    padding: 3px 15px;
+    border: 1px solid #717171;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+
+.application__form-name {
+    width: 350px;
+}
+
+.form__btn {
+    display: block;
+    width: 190px;
+    padding: 10px 17px;
+    background: #F7F8F8;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.110085);
+    border-radius: 4px;
+    margin-left: 20px;
+
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.142857px;
+}
+
+.form__btn-mobil {
+    width: 225px;
+    border: 1px solid #3666FF;
+}
+
+.form__btn-website {
+    width: 75px;
+    color: #FFFFFF;
+    background: #3666FF;
+}
+
+.form__btn-design {
+    width: 89px;
+}
+
+.form__btn-devel {
+    width: 116px;
+}
+
+.form__btn-src {
+    width: 230px;
+}
+
+.path {
+    position: absolute;
+    top: 5px;
+    left: 153px;
+}
+
+.input__file {
+    display: none;
+}
+
+label {
+    color: #3666FF;
+    cursor: pointer;
+}
+
+.privacy {
+    width: 570px;
+    margin-left: 23px;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.142857px;
+    color: #717171;
+}
+
+/* Application Form end */
+
+/* Footer start*/
+
+.footer {
+    padding: 55px 0;
+    background: #F7F8F8;
+}
+
+.footer-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.footer_link-tell, .footer__link-mail {
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.142857px;
+    color: #393939;
+}
+
+.footer__link-mail {
+    margin-left: 40px; 
+}
+
+.footer__icon {
+    margin-left: 105px;
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    position: relative;
+}
+
+.footer__icon::before {
+    display: inline-block;
+    content: "";
+    width: 32px;
+    height: 32px;
+    background: #B0B0B0;
+    border-radius: 50%;
+
+    position: absolute;
+    top: 0;
+    right: 60px;
+}
+
+/* Footer end*/

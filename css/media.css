@@ -1,0 +1,654 @@
+/* Responsive */
+@media (max-width:1199.98px) {
+    .container {
+        max-width: 1170px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-top: 30px;
+    }
+    .header__hero {
+        margin-top: 90px;
+    }
+    .header__hero-title {
+        font-size: 32px;
+        margin-top: 90px;
+    }
+    .header__hero-background {
+        width: 630px;
+        height: 320px;
+    }
+    .services__cards-title {
+        margin-bottom: 54px;
+    }
+    .services__cards-wrapper {
+        gap: 30px;
+    }
+    .section__basic-wrapper {
+        column-gap: 40px;
+    }
+    .section__basic-screen {
+        min-width: 588px;
+        height: 322px;
+        padding: 11px;
+    }
+    .section__basic-text {
+        width: 320px;
+    }
+    .section__basic-frontend {
+        margin-bottom: 58px;
+    }
+    .section__basic-subtitle, .informational__portal .section__basic-subtitle, .photo__bank .section__basic-subtitle {
+        width: 97%;
+        margin-bottom: 86px;
+    }
+    .section__basic-icon {
+        display: none;
+    }
+    .subaru__technology .section__basic-subtitle {
+        margin-bottom: 49px;
+    }
+    .informational__portal .section__basic-subtitle {
+        margin-bottom: 107px;
+    }
+    .festival__invasion .section__basic-subtitle {
+        margin-bottom: 106px;
+    }
+    .photo__bank .section__basic-subtitle {
+       margin-bottom: 87px;
+    }
+    .support__site .section__basic-subtitle {
+       margin-bottom: 61px;
+    }
+    .support__site {
+        background-image: linear-gradient(#F7F8F8 60%, transparent 60%);
+    }
+    .company__information {
+        padding-bottom: 135px;
+    }
+    .company__information-text {
+        width: 625px;
+        height: 100%;
+        text-align: center;
+    }
+}
+
+@media (max-width:991.98px) {
+    .container {
+        max-width: 990px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-top: 20px;
+    }
+    .header__hero-title {
+        font-size: 26px;
+        margin-top: 60px;
+    }
+    .header__hero-background {
+        width: 600px;
+        height: 250px;
+    }
+    .header__hero {
+        margin-top: 60px;
+    }
+    .services__cards {
+        padding-top: 120px;
+        padding-bottom: 100px;
+    }
+    .services__cards-title {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+    .services__cards-wrapper {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .services__card {
+        width: 350px ;
+    }
+    .completed__projects-title {
+        font-size: 34px;
+        margin-bottom: 40px;
+    }
+    .section__basic-screen {
+        min-width: 440px;
+        height: 240px;
+        padding: 9px;
+    }
+    .section__basic-wrapper {
+        column-gap: 20px;
+    }
+    .section__basic-frontend {
+        width: 64px;
+        padding: 5px 17px;
+        font-size: 8px;
+        margin-bottom: 30px;
+    }
+    .section__basic-title {
+        font-size: 20px;
+    }
+    .section__basic-subtitle {
+        font-size: 14px;
+        margin-bottom: 60px;
+    }
+    .section__basic-suptitle {
+        font-size: 12px;
+    }
+    .section__basic-msk {
+        font-size: 10px;
+    }
+    .section__basic {
+        padding-bottom: 70px;
+    }
+    .subaru__technology .section__basic-subtitle {
+        margin-bottom: 25px;
+    }
+    .informational__portal .section__basic-subtitle {
+        margin-bottom: 76px;
+    }
+    .festival__invasion .section__basic-subtitle {
+        margin-bottom: 75px;
+    }
+    .photo__bank .section__basic-subtitle {
+        margin-bottom: 42px;
+    }
+    .support__site .section__basic-subtitle {
+        margin-bottom: 36px;
+    }
+    .company__information {
+        padding-bottom: 80px;
+    }
+    .company__information-text {
+        width: 580px;
+        font-size: 14px;
+    }
+    .application__form-title {
+        font-size: 34;
+    }
+    .application__form-wrap-respon {
+       margin-bottom: 70px;
+       position: relative;
+    }
+    .application__form-wrap-respon3 {
+        margin-bottom: 20px;
+    }
+
+    .form__btn-src {
+        position: absolute;
+        top: 55px;
+        left: 112px;
+    }
+    .btn-devel3 {
+        position: absolute;
+        top: 55px;
+        left: 358px;
+    }
+}   
+
+@media (max-width:767.98px) {
+    .container {
+        max-width: 750px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .header {
+        padding-top: 15px;
+    }
+    .header__nav {
+        font-size: 14px;
+    }
+    .header__hero-background {
+        width: 400px;
+        height: 150px;
+    }
+    .header__hero {
+        margin-top: 40px;
+    }
+    .header__hero-title {
+        font-size: 24px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+    }
+    .btn {
+        width: 200px;
+        padding: 15px 30px;
+    }
+    .services__cards {
+       padding-top: 80px;
+       padding-bottom: 70px;
+    }
+    .services__card {
+        width: 250px;
+        padding: 20px 25px 30px 25px;
+    }
+    .services__cards-title {
+        font-size: 30px;
+    }
+    .services__card-title {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .services__card-text {
+        font-size: 14px;
+    }
+    .completed__projects-title {
+        font-size: 30px;
+        margin-bottom: 35px;
+    }
+    .section__basic-wrapper {
+        column-gap: 15px;
+    }
+    .section__basic-screen {
+        min-width: 320px;
+        height: 190px;
+        padding: 9px;
+    }
+    .section__basic-frontend {
+        margin-bottom: 15px;
+    }
+    .section__basic-title {
+        font-size: 16px;
+        margin-bottom: 8px;
+    }
+    .section__basic-subtitle {
+        font-size: 12px;
+        margin-bottom: 30px;
+    }
+    .section__basic-suptitle {
+        margin-bottom: 3px;
+    }
+    .section__basic-backend, .section__basic-design {
+        margin-left: 6px;
+    }
+    .subaru__technology .section__basic-subtitle {
+        margin-bottom: 14px;
+    }
+    .informational__portal .section__basic-subtitle {
+        margin-bottom: 44px;
+    }
+    .festival__invasion .section__basic-subtitle {
+        margin-bottom: 43px;
+    }
+    .photo__bank .section__basic-subtitle {
+        margin-bottom: 15px;
+    }
+    .support__site .section__basic-subtitle {
+        margin-bottom: 25px;
+    }
+    .company__information-text {
+        width: 520px;
+        font-size: 14px;
+    }
+    .application__form-title {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+    .application__form-name {
+        width: 280px;
+    }
+    .application__form-infotext {
+        font-size: 18px;
+    }
+    .application__form-infotext1 {
+        margin-right: 15px;
+    }
+    .form__btn-sistem {
+        margin-left: 10px;
+    }
+    .form__btn-mobil {
+        position: absolute;
+        top: 54px;
+        left: 0px;
+        margin-left: 0;
+    }
+    .form__btn-website {
+        position: absolute;
+        top: 55px;
+        left: 250px;
+        margin-left: 0;
+    }
+    .form__btn-src {
+        position: absolute;
+        margin-left: 0;
+        left: 0px;
+    }
+    .btn-devel3 {
+        position: absolute;
+        margin-left: 0;
+        left: 250px;
+        order: 4;
+    }
+    .application__form-wrap-respon {
+        margin-bottom: 70px;
+    }
+
+    .application__form-wrap-respon2 {
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      row-gap: 10px;
+    }
+    .application__form-input {
+        margin-left: 0;
+    } 
+    .path {
+        position: absolute;
+        top: 0px;
+        left: 112px;
+    }
+    .privacy {
+        font-size: 14px;
+    }
+    .application__form {
+        padding-bottom: 60px;
+    }
+    .footer {
+        padding: 40px 0;
+    }
+}
+
+@media (max-width: 575.98px) { 
+    .container {
+        max-width: 570px;
+        padding: 0 15px;
+        margin: 0 auto;
+    }
+    .header__nav {
+        display: none;
+    }
+    .header__lng {
+        display: flex;
+        align-items: center;
+        column-gap: 3px;
+        justify-content: flex-end;
+    }
+    .header__lng::before {
+        content: "";
+        display: block;
+        width: 22px;
+        height: 23px;
+        background-image: url(../img/globe_lng.svg);
+    }
+    .header {
+        padding-top: 20px;
+        position: relative;
+    }
+    .header::before {
+        content: "";
+        background: linear-gradient(180deg, rgba(255, 255, 255, 0.72) 0%, #FFFFFF 100%), url(../img/bg_responsive.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        background-size: contain;
+        top: 0;
+        right: 0;
+        z-index: -1;
+        width: 400px;
+        height: 845px;
+    }
+    .header__hero-background {
+      display: none;
+    }
+   
+    .header__hero-title {
+        margin-top: 440px;
+        margin-bottom: 32px;
+        font-size: 24px;
+    }
+    .services__card {
+        width: 380px;
+        height: 350px;
+        padding: 31px 42px 44px 31px;
+    }
+    .services__card-title {
+        font-size: 20px;
+        margin-top: 24px;
+        margin-bottom: 14px;
+    }
+    .services__card-text {
+        font-size: 16px;
+    }
+    .services__cards-wrapper {
+        gap: 45px;
+    }
+    .section__basic-screen {
+        width: 382px;
+        height: 220px;
+    }
+    .section__basic-wrapper {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+    .section__basic-frontend  {
+        margin-bottom: 25px;
+    }
+    .section__basic-subtitle, .subaru__technology .section__basic-subtitle,
+    .informational__portal .section__basic-subtitle, .festival__invasion .section__basic-subtitle,
+    .photo__bank .section__basic-subtitle, .support__site .section__basic-subtitle  {
+        margin-bottom: 30px;
+    }
+    .section__basic-subtitle {
+        font-size: 14px;
+    }
+    .subaru__technology .section__basic-wrapper, .festival__invasion .section__basic-wrapper, 
+    .support__site .section__basic-wrapper{
+        flex-direction: column-reverse;
+    }
+    .company__information-text {
+        width: 382px;
+        font-size: 16px;
+    }
+    .company__information-text::before {
+        left: 0;
+    }
+    .application__form-title {
+        font-size: 24px;
+        margin-bottom: 25px;
+    }
+    .application__form-wrap {
+        flex-direction: column;
+        row-gap: 10px;
+        align-items: flex-start;
+        margin-bottom: 15px;
+    }
+    .application__form-wrap-respon {
+       margin-bottom: 15px;
+    }
+    .form__btn  {
+        margin-left: 0;
+    }
+    .form__btn-src {
+        position: absolute;
+        top: 87px;
+        left: 133px;
+    }
+    .btn-devel3 {
+        position: static;
+    }
+    .form__btn-mobil {
+        position: static;
+    }
+    .form__btn-website {
+        position: absolute;
+        top: 37px;
+        left: 210px;
+    }
+    .btn-devel1 {
+        position: absolute;
+        top: 37px;
+        left: 110px;
+    }
+    .btn-devel3 {
+        position: absolute;
+        top: 37px;
+        left: 245px;
+    }
+    .application__form-infotext {
+        line-height: 1.5;
+    }
+    .path {
+        position: absolute;
+        top: 4px;
+        left: 112px;
+    }
+    .privacy {
+        margin-left: 0;
+        font-size: 10px;
+        width: 240px;
+    }
+    .footer {
+        padding-top: 24px;
+        padding-bottom: 21px;
+    }
+    .footer_link-tell, .footer__link-mail {
+        font-size: 14px;
+        line-height: 1.1;
+        margin-left: 0;
+    }
+    .footer-wrap {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    .footer_link-tell {
+        margin-bottom: 8px;
+        order: 2;
+    }
+    .footer__link-mail {
+        order: 3;
+    }
+    .footer__icon {
+        order: 1;
+        margin-bottom: 20px;
+    }
+    .support__site {
+        background-image: linear-gradient(#F7F8F8 90%, transparent 90%);
+    }
+}
+
+
+@media (max-width: 413.98px) { 
+    .container {
+        max-width: 375px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+    .header::before {
+        width: 375px;
+        height: 600px;
+        top: 70px;
+    }
+    .header__hero-title {
+        margin-bottom: 28px;
+        margin-top: 315px;
+    }
+    .services__cards-title, .completed__projects-title {
+        font-size: 24px;
+    }
+    .services__card {
+        width: 345px;
+        height: 385px;
+    }
+    .section__basic-screen {
+        width: 345px;
+        padding: 8px;
+    }
+    .company__information-text {
+        width: 335px;
+    }
+    .form__btn-src {
+        position: static;
+    }
+    .btn-devel3 {
+        position: absolute;
+        top: 85px;
+        left: 135px;
+    }
+    .application__form-infotext {
+        font-size: 16px;
+        width: 270px;
+    }
+    .path {
+        position: absolute;
+        top: 3px;
+        left: 105px;
+    }
+    .form__span {
+        margin-left: 12px;
+    }
+    .form__btn-website {
+        top: 35px;
+    }
+    .btn-devel1 {
+        top: 34px;
+    }
+    .btn-devel3 {
+        top: 83px;
+    }
+    .support__site {
+        background-image: linear-gradient(#F7F8F8 90%, transparent 90%);
+    }
+}
+
+
+
+@media (max-width: 374.98px) { 
+    .container {
+        max-width: 320px;
+        padding: 0 8px;
+        margin: 0 auto;
+        overflow-x: hidden;
+    }
+    .header__hero-title {
+        margin-bottom: 20px;
+        margin-top: 240px;
+        font-size: 20px;
+    }
+    .header::before {
+        width: 320px;
+        height: 528px;
+        background-position: center;
+        top: 70px;
+        right: 0;
+    }
+    .services__cards-title {
+        margin-bottom: 35px;
+    }
+    .services__card {
+        width: 304px;
+        height: 100%;
+    }
+    .section__basic-screen {
+       min-width: 305px;
+       height: 170px;
+       width: 100%;
+       position: relative;
+    }
+    .section__screen-project {
+        display: block;
+        position: absolute;
+        top: 50px;
+        left: 30px;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 1.1;
+        letter-spacing: 0.18px;
+        border: 1px solid #979797;
+        padding: 6px;
+    }
+    .section__basic-subtitle {
+        width: 90%;
+    }
+    .company__information-text {
+        width: 304px;
+    }
+    .support__site {
+        background-image: linear-gradient(#F7F8F8 90%, transparent 90%);
+    }
+}
+
+@media (max-width: 319.98px) { 
+    
+}
